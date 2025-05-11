@@ -1,5 +1,5 @@
 {
-  "name": "rca-front-end",
+  "name": "second-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/react": "^2.7.8",
+    "axios": "^1.9.0",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^12.10.1",
+    "lucide-react": "^0.508.0",
+    "next": "15.3.2",
+    "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "react-hook-form": "^7.56.3",
+    "react-hot-toast": "^2.5.2",
+    "socket.io-client": "^4.8.1",
+    "zustand": "^5.0.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
   }
 }
